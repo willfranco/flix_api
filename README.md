@@ -64,32 +64,32 @@ A API estará disponível em `http://127.0.0.1:8000/`
 - `POST authentication/token/verify/` → Verifica o token JWT.
 
 ### Filmes
-- `GET /api/v1/movies/` → Lista todos os filmes.
+- `GET /api/v1/movies/` → Lista todos os filmes (requer autenticação).
 - `POST /api/v1//movies/` → Cria um novo filme (requer autenticação).
-- `GET /api/v1//movies/{id}/` → Obtém detalhes de um filme.
+- `GET /api/v1//movies/{id}/` → Obtém detalhes de um filme (requer autenticação).
 - `PUT /api/v1//movies/{id}/` → Atualiza um filme (requer autenticação).
-- `DELETE /api/v1//movies/{id}/` → Exclui um filme (somente admin).
+- `DELETE /api/v1//movies/{id}/` → Exclui um filme (requer autenticação).
 
 ### Atores
-- `GET /api/v1//actors/` → Lista todos os atores.
+- `GET /api/v1//actors/` → Lista todos os atores (requer autenticação).
 - `POST /api/v1/ /actors/` → Cria um novo ator (requer autenticação).
-- `GET /api/v1/ /actors/{id}/` → Obtém detalhes de um ator.
+- `GET /api/v1/ /actors/{id}/` → Obtém detalhes de um ator (requer autenticação).
 - `PUT /api/v1/ /actors/{id}/` → Atualiza um ator (requer autenticação).
-- `DELETE /api/v1/ /actors/{id}/` → Exclui um ator (somente admin).
+- `DELETE /api/v1/ /actors/{id}/` → Exclui um ator (requer autenticação).
 
 ### Gêneros
-- `GET /api/v1/ /genres/` → Lista todos os gêneros.
+- `GET /api/v1/ /genres/` → Lista todos os gêneros (requer autenticação).
 - `POST /api/v1/ /genres/` → Cria um novo gênero (requer autenticação).
-- `GET /api/v1/ /genres/{id}/` → Obtém detalhes de um gênero.
+- `GET /api/v1/ /genres/{id}/` → Obtém detalhes de um gênero (requer autenticação).
 - `PUT /api/v1/ /genres/{id}/` → Atualiza um gênero (requer autenticação).
-- `DELETE /api/v1/ /genres/{id}/` → Exclui um gênero (somente admin).
+- `DELETE /api/v1/ /genres/{id}/` → Exclui um gênero (requer autenticação).
 
 ### Avaliações
-- `GET /api/v1/ /reviews/` → Lista todas as avaliações.
+- `GET /api/v1/ /reviews/` → Lista todas as avaliações (requer autenticação).
 - `POST /api/v1/ /reviews/` → Cria uma nova avaliação (requer autenticação).
-- `GET /api/v1/ /reviews/{id}/` → Obtém detalhes de uma avaliação.
+- `GET /api/v1/ /reviews/{id}/` → Obtém detalhes de uma avaliação (requer autenticação).
 - `PUT /api/v1/ /reviews/{id}/` → Atualiza uma avaliação (requer autenticação).
-- `DELETE /api/v1/ /reviews/{id}/` → Exclui uma avaliação (somente admin).
+- `DELETE /api/v1/ /reviews/{id}/` → Exclui uma avaliação (requer autenticação).
 
 
 ---
