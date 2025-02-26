@@ -94,5 +94,5 @@ A API estará disponível em `http://127.0.0.1:8000/`
 
 ---
 
-Desenvolvido por [William Amaral Franco](https://github.com/wilfranco) 🚀
+Desenvolvido por [William Amaral Franco](https://github.com/willfranco) 🚀
 
