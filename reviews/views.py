@@ -1,11 +1,9 @@
-from django.shortcuts import render
 from rest_framework import generics
 from reviews.models import Review
 from reviews.serializers import ReviewSerializer
 from rest_framework.permissions import IsAuthenticated
 from app.permissions import GlobalDefaultPermission
 
-# Create your views here.
 
 class ReviewCreateListView(generics.ListCreateAPIView):
     permission_classes = (IsAuthenticated, GlobalDefaultPermission,)
